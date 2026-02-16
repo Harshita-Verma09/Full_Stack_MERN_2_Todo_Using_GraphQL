@@ -1,0 +1,86 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 420px;
+    max-width: 95%;
+    margin: 60px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* FORM */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+/* BUTTON */
+button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* TASK ITEM */
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #f9f9f9;
+    gap: 10px;
+}
+
+/*  IMPORTANT FIX FOR LONG TEXT */
+.task span {
+    flex: 1;
+    word-break: break-word;   /* long word break */
+    overflow-wrap: anywhere;  /* prevent overflow */
+}
+
+/* Filters */
+.filters {
+    margin: 20px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.filters button {
+    flex: 1;
+    background: #e2e8f0;
+    color: #333;
+}
+
+.filters button:hover {
+    background: #cbd5e0;
+}
