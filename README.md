@@ -8,6 +8,7 @@ A minimal full-stack **TODO app** using **GraphQL (Apollo Server) + MongoDB** on
 
 
 ###  Backend
+
 - Node.js  
 - Express  
 - Apollo Server  
