@@ -10,7 +10,7 @@ A minimal full-stack **TODO app** using **GraphQL (Apollo Server) + MongoDB** on
 
 - Node.js  
 - Express  
-- Apollo Server  
+- Apollo Server
 - Mongoose  
 - MongoDB  
 
