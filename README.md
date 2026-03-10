@@ -11,7 +11,7 @@ A minimal full-stack **TODO app** using **GraphQL (Apollo Server) + MongoDB** on
 - Express  
 - Apollo Server
 - Mongoose  
-- MongoDB  
+- MongoDB   
 
 ###  Frontend
 - React (Create React App)  
